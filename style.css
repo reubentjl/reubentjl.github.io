@@ -1,0 +1,98 @@
+/* Home page - Video Header Start */
+#videoHeader {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+#videoHeader video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#videoHeader .container {
+  position: relative;
+  z-index: 2;
+}
+
+#videoHeader .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/* Home page - Video Header Ending */
+
+/* What is AIESEC Start */
+#aiesecInfo {
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+
+@media screen and (max-width: 991px) {
+    #aiesecInfo {
+      border-right: 0;
+      border-bottom: 1px solid rgba(0,0,0,.1);
+    }
+}
+
+#aiesecInfo h2 {
+    color: #52565e;
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#aiesecInfo p {
+	text-align: left;
+	color: #666a71;
+	font-style: italic;
+	font-size: 32px;
+	font-family: "Lato Thin", sans-serif;
+	font-weight: bold;
+
+}
+/* What is AIESEC Ending */
+
+/* FAQ Start */
+#questions .btn {
+  word-break: normal;
+  white-space:normal !important;
+  word-wrap: break-word;
+}
+/* FAQ Ending */
+
+/* Banner Starting */
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+}
+/* Banner Ending */
+
+
+
+
